@@ -1,0 +1,12 @@
+Making a jar file is easy!
+(1) File > Project Structure > new jar file, click ok
+(2) Build > Rebuild artifacts
+(3) Jar file is ready!
+(4) This jar wont work outside because absolute paths are used. Use relative paths, and it will work!
+
+On paths:
+(1) Relative paths must be strictly relative. IDE uses project root as main source but that is not usually the case.
+(2) Always maintain the reltive path to the resources!
+
+On command line:
+(1) Find a way to fix my cmd....
